@@ -1,0 +1,84 @@
+.dir{
+    float: right;
+}
+.divider{
+    background-color: #000;
+}
+
+.butpesq{
+    background-color: #BA653B;
+    border-color: #BA653B;
+    color: black;
+    font-family: 'Karla', sans-serif;
+}
+.butpesq:hover{
+    background-color: #653F2A;
+    border-color: #653F2A;
+    color: #000;
+    font-family: 'Karla', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.font1{
+    font-family: 'Karla', sans-serif;
+}
+
+.font2{
+    font-family: 'Bebas Neue';
+}
+
+.font3{
+    font-family: 'ADLaM Display', cursive;
+}
+
+.dropstyle{
+    background-color: pink;
+    border-color: #000    ;
+}
+
+.dropstyle:hover{
+    background-color: pink;
+    border-color: #000;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.dropitem{
+    color: #59554C;
+}
+
+.dropitem:hover{
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.container80{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 0px 0px 3rem rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.imgbn{
+    width:50%
+}
+
+.corp{
+    width: 960px;
+    margin: auto;
+}
+
+.banner1{
+        display: table-cell;
+}
+
+.cont{
+    display: table;
+}
+
+.text2{
+    display: table-cell;
+}
