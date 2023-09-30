@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 .dir{
     float: right;
 }
@@ -60,25 +64,40 @@
     box-shadow: 0px 0px 3rem rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 
-.imgbn{
-    width:50%
+@media screen and (min-width: 580px) {
+    .imgbn{
+        max-width: 80%;
+        max-height:15%;
+        float: left;
+        margin-bottom: -1%;
+        margin-right: 2%;
+}
+.p2{
+    margin-top: -2%;
 }
 
-.corp{
-    width: 960px;
-    margin: auto;
+.text1 {
+    padding-left: 30px;
+    margin-left: 10%;
+  }
+
+  .col-6card {
+    width: 20%;
+    margin: 1em;
 }
 
-.banner1{
-        display: table-cell;
+
 }
 
-.cont{
-    display: table;
+.rowcard{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    
 }
 
-.text2{
-    display: table-cell;
-}

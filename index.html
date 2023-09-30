@@ -1,113 +1,190 @@
 <!doctype html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css\bootstrap-grid.css">
-    <link rel="stylesheet" href="css\bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-	  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
-    <title>Um Ano Inesquecível</title>
-  </head>
-  <body>
-    <header class="fixed-top">
-        <nav class="navbar navbar-expand-lg" style="background-color: #F2B885;">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              <img src="img/logo1__1_-removebg-preview.png" alt="logo" width="185" height="43" >
-            </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css\bootstrap-grid.css">
+  <link rel="stylesheet" href="css\bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+  <title>Um Ano Inesquecível</title>
+</head>
+
+<body>
+  <header class="fixed-top">
+    <nav class="navbar navbar-expand-lg" style="background-color: #F2B885;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/logo1__1_-removebg-preview.png" alt="logo" width="185" height="43">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active font3" aria-current="page" href="index.html">Início</a>
+            </li>
+            <li class="nav-item font3">
+              <a class="nav-link dropitem" href="index.html#book">Livro</a>
+            </li>
+            <li class="nav-item dropdown font3">
+              <a class="nav-link dropdown-toggle font3 dropitem" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Autoras
+              </a>
+              <ul class="dropdown-menu dropstyle" style="background-color: pink;">
+                <li><a class="dropdown-item font1 dropstyle" style="background-color: pink;" href="thalita.html">Thalita
+                    Rebouças</a></li>
+                <li>
+                  <hr class="dropdown-divider divider">
+                </li>
+                <li><a class="dropdown-item font1 dropstyle" style="background-color: pink;" href="paula.html">Paula
+                    Pimenta</a></li>
+                <li>
+                  <hr class="dropdown-divider divider">
+                </li>
+                <li><a class="dropdown-item font1 dropstyle" style="background-color: pink;" href="babi.html">Babi
+                    Dewet</a></li>
+                <li>
+                  <hr class="dropdown-divider divider">
+                </li>
+                <li><a class="dropdown-item font1 dropstyle" style="background-color: pink;" href="bruna.html">Bruna
+                    Vieira</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown font3">
+              <a class="nav-link dropdown-toggle font3 dropitem" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Filmes
+              </a>
+              <ul class="dropdown-menu dropstyle">
+                <li><a class="dropdown-item font1 dropstyle" href="verao.html">Verão</a></li>
+                <li>
+                  <hr class="dropdown-divider divider">
+                </li>
+                <li><a class="dropdown-item font1 dropstyle" href="inverno.html">Inverno</a></li>
+                <li>
+                  <hr class="dropdown-divider divider">
+                </li>
+                <li><a class="dropdown-item font1 dropstyle" href="outono.html">Outono</a></li>
+                <li>
+                  <hr class="dropdown-divider divider">
+                </li>
+                <li><a class="dropdown-item font1 dropstyle" href="primavera.html">Primavera</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2 font1" type="search" placeholder="Pesquisa" aria-label="Pesquisa">
+            <button class="btn btn-outline-success butpesq" type="submit">Pesquisar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div id="carouselExampleIndicators" class="carousel slide carousel-fade" style="margin-top: 4em;" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/verao.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/inverno.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/outono.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/primavera.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active font3" aria-current="page" href="#">Início</a>
-        </li>
-        <li class="nav-item font3">
-          <a class="nav-link dropitem" href="#">Livro</a>
-        </li>
-        <li class="nav-item dropdown font3">
-          <a class="nav-link dropdown-toggle font3 dropitem" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Autoras
-          </a>
-          <ul class="dropdown-menu dropstyle" style="background-color: pink;">
-            <li><a class="dropdown-item font1 dropstyle" style="background-color: pink;" href="#">Thalita Rebouças</a></li>
-            <li><hr class="dropdown-divider divider"></li>
-            <li><a class="dropdown-item font1 dropstyle" style="background-color: pink;" href="#">Paula Pimenta</a></li>
-            <li><hr class="dropdown-divider divider"></li>
-            <li><a class="dropdown-item font1 dropstyle" style="background-color: pink;" href="#">Babi Dewet</a></li>
-            <li><hr class="dropdown-divider divider"></li>
-            <li><a class="dropdown-item font1 dropstyle" style="background-color: pink;" href="#">Bruna Vieira</a></li>
-          </ul>
-        </li>
-        <li class="nav-item dropdown font3">
-          <a class="nav-link dropdown-toggle font3 dropitem" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Filmes
-          </a>
-          <ul class="dropdown-menu dropstyle">
-            <li><a class="dropdown-item font1 dropstyle" href="#">Verão</a></li>
-            <li><hr class="dropdown-divider divider"></li>
-            <li><a class="dropdown-item font1 dropstyle" href="#">Inverno</a></li>
-            <li><hr class="dropdown-divider divider"></li>
-            <li><a class="dropdown-item font1 dropstyle" href="#">Outono</a></li>
-            <li><hr class="dropdown-divider divider"></li>
-            <li><a class="dropdown-item font1 dropstyle" href="#">Primavera</a></li>
-          </ul>
-        </li>
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2 font1" type="search" placeholder="Pesquisa" aria-label="Pesquisa">
-        <button class="btn btn-outline-success butpesq"  type="submit">Pesquisar</button>
-      </form>
-    </div>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
-</nav>
-    </header>
 
-    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" style="margin-top: 4em;" data-bs-ride="true">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="img/verao.webp" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="img/inverno.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="img/outono.webp" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="img/primavera.jpg" class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-    
-  <div class="container80">
-    <figure class="figure">
-  <img src="img/banner1.webp" class="figure-img img-fluid rounded" width="400" alt="...">
-    </figure>
-    <p></p>
-  </div>    
+  <div class="container80 font1">
+    <section>
+      <div>
+        <figure class="figure imgbn">
+          <img src="img/banner1.webp" class="figure-img img-fluid rounded" width="400" alt="...">
+        </figure>
+      </div>
+      <div>
+        <h1 id="book">BEM VINDOS</h1>
+        <p class="text1">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, architecto adipisci enim aut quia magni
+          nisi. Dolore quaerat doloremque, facere atque aut molestias temporibus doloribus dolorum voluptates nihil.
+          Autem, a? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quam repudiandae molestias minima
+          porro ut.
+        </p>
+        <p class="p2">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima ab impedit itaque sit cupiditate in ipsam.
+          Voluptate unde qui fugit, dignissimos dicta aliquid iusto, culpa, est iste quaerat cumque. Facilis.
+        </p>
 
-  <h1>Hello, world!</h1>
-    
-    <script src="js\bootstrap.bundle.js"></script>
-  </body>
+        <div class="rowcard">
+          <div class="card col-6card">
+              <img src="img/thalita.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Thalita Rebouças</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <a href="thalita.html" class="btn butpesq">Saiba mais</a>
+            </div>
+          </div>
+          <div class="card col-6card">
+            <img src="img/paula.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Paula Pimenta</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="thalita.html" class="btn butpesq">Saiba mais</a>
+          </div>
+        </div>
+        <div class="card col-6card">
+          <img src="img/babi-dewet.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Babi Dewet</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum </p>
+          <a href="thalita.html" class="btn butpesq">Saiba mais</a>
+        </div>
+      </div>
+      <div class="card col-6card">
+        <img src="img/bruna.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Bruna Vieira</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum</p>
+        <a href="thalita.html" class="btn butpesq">Saiba mais</a>
+      </div>
+    </div>
+        </div>
+          
+    </section>
+  </div>
+
+  <script src="js\bootstrap.bundle.js"></script>
+</body>
+
 </html>
