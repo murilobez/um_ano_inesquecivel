@@ -77,6 +77,16 @@ html{
         margin-bottom: -1%;
         margin-right: 2%;
 }
+
+.imgbn2{
+    max-width: 80%;
+    max-height:15%;
+    float: left;
+    margin-bottom: -1%;
+    margin-right: 2%;
+    margin-left: 11em;
+}
+
 .p2{
     margin-top: -2%;
 }
@@ -94,10 +104,17 @@ html{
 
 }
 
+@media screen and (max-width: 579px){
+    .imgbn2{
+        width: 80%;
+        margin-left: 1em;
+        margin-top: 1em;
+    }
+}
+
 .rowcard{
     display: flex;
     flex-flow: row wrap;
     text-align: center;
-    
 }
 
