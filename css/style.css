@@ -69,6 +69,10 @@ html{
     justify-content: center
 }
 
+.margint{
+    margin-top: 4em;
+}
+
 @media screen and (min-width: 580px) {
     .imgbn{
         max-width: 80%;
@@ -117,4 +121,3 @@ html{
     flex-flow: row wrap;
     text-align: center;
 }
-
