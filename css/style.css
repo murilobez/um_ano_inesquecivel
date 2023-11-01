@@ -100,23 +100,10 @@ h1{
 
 @media screen and (min-width: 580px) {
 
-
-.imgbn3{
-    max-width: 80%;
-    max-height:15%;
-    margin-bottom: -1%;
-    margin-right: 2%;
-    margin-left: 4.5em;
-}
-
-.p2{
-    margin-top: -2%;
-}
-
-  .col-6card {
-    width: 20%;
-    margin: 1em;
-}
+    .col-6card {
+        width: 20%;
+        margin: 1em;
+    }
 
 
 }
