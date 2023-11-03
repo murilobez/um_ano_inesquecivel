@@ -93,7 +93,7 @@ h1{
 }
 
 .banners :hover{
-    margin-top: 5%;
+    margin-top: -4%;
     opacity: 0.9;
     transition: 0.3s;
 }
