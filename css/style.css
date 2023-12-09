@@ -57,7 +57,7 @@ html{
 }
 
 .container80{
-    width: 800px;
+    width: 80%;
     margin: 0 auto;
     padding: 2rem;
     background-color: white;
@@ -67,6 +67,7 @@ html{
     align-items: center;
     justify-content: center
 }
+
 
 .margint{
     margin-top: 4em;
@@ -107,8 +108,7 @@ h1{
 
     .col-6card {
         width: 20%;
-        margin: 1em;
-        margin-left: 3em;
+        margin-left: 1em;
     }
 }
 
@@ -118,9 +118,20 @@ h1{
     .col-6card {
         width: 80%;
         margin: 1em;
-        margin-left: 2em;
+        margin-left: 2.5em;
     }
     
+    .container80{
+        width: 100%;
+        margin: 0 auto;
+        padding: 2rem;
+        background-color: white;
+        box-shadow: 0px 0px 3rem rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        margin-top: 1em;
+        align-items: center;
+        justify-content: center
+    }
 }
 
 
