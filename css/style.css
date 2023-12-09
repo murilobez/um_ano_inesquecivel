@@ -98,6 +98,9 @@ h1{
     transition: 0.3s;
 }
 
+.mb-md-me{
+    margin-bottom: 8em;
+}
 
 
 @media screen and (min-width: 580px) {
